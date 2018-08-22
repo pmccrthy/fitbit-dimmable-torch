@@ -10,12 +10,10 @@ import document from "document";
 // Global variables
 const min_screen_brightness = 0.1;
 const max_screen_brightness = 1.0;
-const lamp_brightness_levels = ["#333333", "#666666", "#999999", "#cccccc", "#ffffff"];
-//const lamp_brightness_levels = ["#555555", "#aaaaaa", "#ffffff"];
+const lamp_brightness_levels = ["darkgray", "lightgray", "white"];
 const min_lamp_brightness = 0;
 const max_lamp_brightness = lamp_brightness_levels.length - 1;
 let current_lamp_brightness = 1;
-let lamp = document.getElementById("lamp");
 
 function lamp_brighter() {
   current_lamp_brightness++;
@@ -62,8 +60,8 @@ document.onkeypress = function(e) {
   }
 }
 
-// GUI Elements event handlers
-// var lamp = document.getElementById("lamp");
+// GUI Elements & event handlers
+let lamp = document.getElementById("lamp");
 lamp.onclick = function(e) {
   toggle_screen_brightness();
 }
@@ -72,7 +70,6 @@ function main() {
   display.autoOff = false;
   display.on = true;
   display.brightnessOverride = max_screen_brightness;
-  
   set_lamp_brightness();
 }
 

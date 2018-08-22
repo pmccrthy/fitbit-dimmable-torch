@@ -10,7 +10,7 @@ import document from "document";
 // Global variables
 const min_screen_brightness = 0.1;
 const max_screen_brightness = 1.0;
-const lamp_brightness_levels = ["#555555", "#aaaaaa", "#ffffff"];
+const lamp_brightness_levels = ["#444444", "#888888", "#bbbbbb", "#ffffff"];
 const min_lamp_brightness = 0;
 const max_lamp_brightness = lamp_brightness_levels.length - 1;
 let current_lamp_brightness = min_lamp_brightness;

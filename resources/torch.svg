@@ -74,7 +74,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4023438"
      inkscape:cx="215.1789"
-     inkscape:cy="291.00238"
+     inkscape:cy="346.84965"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -146,21 +146,21 @@
        id="rect6260-0-9-0"
        width="30.842096"
        height="5.064672"
-       x="-34.601299"
-       y="218.70367"
+       x="3.0668187"
+       y="219.23663"
        ry="0.66146028"
        rx="1.3229166"
-       transform="rotate(-45)" />
+       transform="rotate(-35)" />
     <rect
        style="opacity:1;fill:#d1d105;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1"
        id="rect6260-0-9-6"
        width="30.842096"
        height="5.064672"
-       x="-34.601299"
-       y="196.25304"
+       x="-69.869125"
+       y="189.339"
        ry="0.66146028"
        rx="1.3229166"
-       transform="rotate(-45)" />
+       transform="rotate(-55)" />
     <path
        style="opacity:1;fill:#808a80;fill-opacity:1;fill-rule:nonzero;stroke:#a7a700;stroke-width:1.11124992;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100;stroke-dasharray:none;stroke-opacity:1"
        d="M 103.3135,173.85398 14.914322,262.2537 34.558704,281.89755 122.95789,193.49836 Z"

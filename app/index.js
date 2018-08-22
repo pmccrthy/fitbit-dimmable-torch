@@ -10,16 +10,16 @@ import document from "document";
 // Global variables
 const min_screen_brightness = 0.1;
 const max_screen_brightness = 1.0;
-const lamp_brightness_levels = ["darkgray", "lightgray", "white"];
+const lamp_brightness_levels = ["#555555", "#aaaaaa", "#ffffff"];
 const min_lamp_brightness = 0;
 const max_lamp_brightness = lamp_brightness_levels.length - 1;
-let current_lamp_brightness = 1;
+let current_lamp_brightness = min_lamp_brightness;
 
 function lamp_brighter() {
   current_lamp_brightness++;
   if (current_lamp_brightness >= max_lamp_brightness) {
     current_lamp_brightness = max_lamp_brightness;
-    vibration.start("confirmation");    
+    vibration.start("confirmation");
   }
   set_lamp_brightness();
 }
@@ -28,7 +28,7 @@ function lamp_darker() {
   current_lamp_brightness--;
   if (current_lamp_brightness <= min_lamp_brightness) {
     current_lamp_brightness = min_lamp_brightness;
-    vibration.start("confirmation");    
+    vibration.start("confirmation");
   }
   set_lamp_brightness();
 }

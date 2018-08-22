@@ -19,7 +19,7 @@ function lamp_brighter() {
   current_lamp_brightness++;
   if (current_lamp_brightness >= max_lamp_brightness) {
     current_lamp_brightness = max_lamp_brightness;
-    vibration.start("confirmation");
+    vibration.start("bump");
   }
   set_lamp_brightness();
 }
@@ -28,7 +28,7 @@ function lamp_darker() {
   current_lamp_brightness--;
   if (current_lamp_brightness <= min_lamp_brightness) {
     current_lamp_brightness = min_lamp_brightness;
-    vibration.start("confirmation");
+    vibration.start("bump");
   }
   set_lamp_brightness();
 }

@@ -52,7 +52,7 @@ messaging.peerSocket.onmessage = evt => {
   if (evt.data.key === "maxBrightnessOn" && evt.data.newValue) {
     settings.maxBrightnessOn = JSON.parse(evt.data.newValue);
   }
-  
+
   if (evt.data.key === "currentLampBrightness" && evt.data.newValue) {
     settings.currentLampBrightness = JSON.parse(evt.data.newValue).selected;
   }
@@ -112,8 +112,7 @@ lamp.onclick = function(e) {
   toggleMaxBrightnessOn();
 }
 
-applySettings();
 display.autoOff = false;
 display.on = true;
-display.brightnessOverride = MAX_SCREEN_BRIGHTNESS;
+applySettings();
 setLampBrightness();

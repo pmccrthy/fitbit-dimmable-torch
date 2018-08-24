@@ -2,7 +2,7 @@
   "fitbit": {
     "appUUID": "6356e44e-e86b-41a7-8e5a-f5a72fe1861f",
     "appType": "app",
-    "appDisplayName": "Dimmable Torch",
+    "appDisplayName": "Torch",
     "iconFile": "resources/icon.png",
     "wipeColor": "#607d8b",
     "requestedPermissions": [],
@@ -12,7 +12,7 @@
     ],
     "i18n": {
       "en": {
-        "name": "Dimmable Torch"
+        "name": "Torch"
       }
     }
   }

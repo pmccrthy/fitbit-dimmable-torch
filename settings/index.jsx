@@ -2,11 +2,7 @@ function mySettings(props) {
   return (
     <Page>
       <Section
-        title={<Text bold align="center">Default Torch Settings</Text>}>
-        <Toggle
-          settingsKey="maxBrightnessOn"
-          label="Enable Max Brightness"
-        />
+        title={<Text bold align="center">Initial Torch Settings</Text>}>
         <Select
           label={"Initial brightness Level"}
           settingsKey="currentLampBrightness"
